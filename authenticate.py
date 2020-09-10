@@ -76,6 +76,7 @@ def authen():
                 cv2.circle(frame, (x, y), 1, (0, 0, 255), -1)
                 cv2.putText(frame, str(i + 1), (x - 10, y - 10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 0, 255), 1)
+
         for (x, y, w, h) in faces:
             cv2.rectangle(frame, (x, y), (x + w, y + h), color=[125, 255, 187], thickness=2)
 

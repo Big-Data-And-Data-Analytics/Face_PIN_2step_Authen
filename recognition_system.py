@@ -29,10 +29,11 @@ def start(im):
     boxes = face_recognition.face_locations(image,model="hog")
     encodings = face_recognition.face_encodings(image,boxes)
     names = []
+    name = "Unknown"  # added by Anurag
     #loop over the facial encodings
     for encoding in encodings:
         matches = face_recognition.compare_faces(data["encodings"],encoding)
-        name = "Unknown"
+        #name = "Unknown"  # commented by Anurag
 
         if True in matches:
             matchedIdxs = [i for (i,b) in enumerate(matches) if b]

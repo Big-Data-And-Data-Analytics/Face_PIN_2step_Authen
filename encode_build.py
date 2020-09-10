@@ -46,11 +46,11 @@ def run_encode(path):
         encoding = encoding + knownEncodings
 
         names = dict['names']
-        print("names",names)
-        print("known",knownNames)
+        #print("names", names)
+        #print("known", knownNames)
         names = names+knownNames
 
-        print(names)
+        #print(names)
         print(len(encoding))
 
         pickle_data.close()
@@ -65,7 +65,7 @@ def run_encode(path):
     else:
 
         print("**Serializing Encoding...**")
-        data = {"encodings":knownEncodings,"names":knownNames}
+        data = {"encodings": knownEncodings, "names": knownNames}
 
         f = open("data.pickle","wb")
         f.write(pickle.dumps(data))
@@ -74,5 +74,6 @@ def run_encode(path):
 
 
 
-
-run_encode("C:/Users/rai_a/PycharmProjects/final_year_face_recogn/aligned_image_data/aditya")
+# start - uncomment below line only to train model on all images
+#run_encode("C:\\Users\\anurag.watane@sap.com\\OneDrive - SAP SE\\face recognition\\raiadi96_face_recognition_atm\\Face_PIN_2step_Authen\\aligned_image_data\\")
+# end - uncomment below line only to train model on all images
