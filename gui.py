@@ -170,7 +170,7 @@ class PageTwo(tk.Frame):
                         lbl_pin.pack_forget()
                         txtbox_pin.pack_forget()
                     else:
-                        label.configure(text="Username and Picture not match")
+                        label.configure(text="Username and Face not match")
                 else:
                     label.configure(text="Face Not Match")
             else:

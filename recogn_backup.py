@@ -58,7 +58,7 @@ while(True):
             faceAligned = fa.align(dup_frame, gray_frame, rect)
             capture = "image_"+str(randint(0,125))+ "_"+str(randint(0,125))
             cv2.putText(frame, str("Capturing Image"), (x - 10, y - 10),cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 4)
-            cv2.imwrite("C:/Users/rai_a/PycharmProjects/final_year_face_recogn/aligned_image_data/"+capture+".jpg",
+            cv2.imwrite("C:/Users/anurag.watane@sap.com/OneDrive - SAP SE/face recognition/raiadi96_face_recognition_atm/Face_PIN_2step_Authen/aligned_image_data/"+capture+".jpg",
                         faceAligned)
             print("Capturing in process",end="",flush=True)
             time.sleep(2)

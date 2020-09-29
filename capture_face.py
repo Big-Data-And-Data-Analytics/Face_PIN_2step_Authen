@@ -34,7 +34,7 @@ def start_capture(name1):
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faceAligned = gray_frame
         dup_frame = frame.copy()
-        # building scaled outline of face and then detecting all the rectangles formed. A rectangle will dentoe the outline of the face.
+        # building scaled outline of face and then detecting all the rectangles formed. A rectangle will denote the outline of the face.
         faces = detect_face.detectMultiScale(gray_frame, scaleFactor=4)
         rects = dlib_detector(gray_frame, 0)
         if len(rects) > 0:

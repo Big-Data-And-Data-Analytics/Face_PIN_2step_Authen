@@ -75,5 +75,5 @@ def run_encode(path):
 
 
 # start - uncomment below line only to train model on all images
-#run_encode("C:\\Users\\anurag.watane@sap.com\\OneDrive - SAP SE\\face recognition\\raiadi96_face_recognition_atm\\Face_PIN_2step_Authen\\aligned_image_data\\")
+# run_encode("./aligned_image_data/")
 # end - uncomment below line only to train model on all images

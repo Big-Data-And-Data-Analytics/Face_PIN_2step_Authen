@@ -17,7 +17,7 @@ def start(im):
     file = open("data.pickle","rb").read()
     data = pickle.loads(file)
 
-    print(data["encodings"])
+    #print(data["encodings"])
 
     #load the input image
     image = im
