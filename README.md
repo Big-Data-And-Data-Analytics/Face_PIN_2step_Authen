@@ -31,7 +31,7 @@ Step 1:
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/Test4100_89.PNG  "Model Accuracy")
 
 ---------------
-#### UI Demo
+#### About User Interface
 The application provides two options
 1. Create New User
 2. Existing User
