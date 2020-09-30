@@ -19,10 +19,13 @@ Step 1:
 #### About the repository
 1. The training dataset contains over 20000 images, belonging to 200+ classes. To avoid unbiased results, each class contains 100 images.
 <br/>[Face_PIN_2step_Authen/aligned_image_data/](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/tree/master/aligned_image_data)
+  
 2. The testing dataset contains over 4000 images, belonging to 200+ classes. To avoid unbiased results, each class contains 20 images.
 <br/>[Face_PIN_2step_Authen/test_images/](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/tree/master/test_images)
+  
 3. The username and PIN are stored in a JSON file, this file acts a dummy database.
 <br/>[Face_PIN_2step_Authen/File/userCredentials.json](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/File/userCredentials.json)
+  
 4. The model can be evaluated using [evaluation.py](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/evaluation.py)
 <br/>We have achieved a model accuracy of 89.60%
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/Test4100_89.PNG  "Model Accuracy")
@@ -36,5 +39,4 @@ The application provides two options
 1. To create a new user, username and PIN is required.
 When the user clicks on “save login details”, two threads are started.
 One thread saves the login credentials into the database and second thread capture the user image.
-<br/>
-![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/Test4100_89.PNG "Create New User")
+<br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Create%20New%20User.PNG "Create New User")
