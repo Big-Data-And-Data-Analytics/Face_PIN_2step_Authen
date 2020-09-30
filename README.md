@@ -43,8 +43,7 @@ One thread saves the login credentials into the database and second thread captu
   
 2. While accessing as an existing user, the user must enter his username and PIN. When the user clicks on “Login” button, two threads are started. One thread verifies the username and PIN, another thread verifies the image.	Both the processes happen simultaneously.	If anyone the process fails, the user is not allowed to perform the transaction.
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/2%20step_PIN_Face.PNG "Existing User")
-  
-When the user credentials and face are of same user, then only the user can perform the transaction.
+<br/>When the user credentials and face are of same user, then only the user can perform the transaction.
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Face_PIN_same%20user.PNG "User credential & Face Match")
   
 3. If the username & PIN does not match with the face, the user is not allowed to perform transaction.
