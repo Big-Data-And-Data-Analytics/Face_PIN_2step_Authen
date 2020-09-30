@@ -46,4 +46,6 @@ One thread saves the login credentials into the database and second thread captu
   
 When the user credentials and face are of same user, then only the user can perform the transaction.
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Face_PIN_same%20user.PNG "User credential & Face Match")
-![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Transaction.PNG "User can perform transaction")
+  
+3. If the username & PIN does not match with the face, the user is not allowed to perform transaction.
+<br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Login%20with%20mask3.PNG "User credential & Face NOT Match")
