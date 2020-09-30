@@ -1,0 +1,15 @@
+1> Go to the directory where requirements.txt is present
+	
+	cd C:\Users\face recognition\Face_PIN_2step_Authen\Documents
+
+2> Run below command to install all necessary python packages using requirements.txt
+
+	pip install -r requirements.txt
+
+3> The python packages can also be installed one-by-one
+
+	example: pip install pandas
+
+4> Check all necessary python packages are installed
+
+	example: pip show pandas
