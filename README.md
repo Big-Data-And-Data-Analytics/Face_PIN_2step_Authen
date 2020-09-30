@@ -48,3 +48,6 @@ One thread saves the login credentials into the database and second thread captu
   
 3. If the username & PIN does not match with the face, the user is not allowed to perform transaction.
 <br/>![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/UI/Login%20with%20mask3.PNG "User credential & Face NOT Match")
+--------------
+#### Architecture Used
+![Alt text](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/screenshots/Architecture%20Used.png "Architecture Used")
