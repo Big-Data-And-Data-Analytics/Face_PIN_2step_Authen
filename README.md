@@ -10,7 +10,7 @@ Step 1:
 <br/>Install all the necessary packages using [requirements.txt](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/Documents/requirements.txt)
 <br/>
 <br/>Step 1.a:
-<br/>Follow the steps present in [Document/]() to install all the necessary python packages using requirements.txt
+<br/>Follow the steps present in [/Documents/command_to_install_requirements.txt](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/Documents/command_to_install_requirements.txt) to install all the necessary python packages using requirements.txt
 <br/>
 <br/>Step 2
 <br/>Start the application by running the python file [gui.py](https://github.com/Big-Data-And-Data-Analytics/Face_PIN_2step_Authen/blob/master/gui.py)
