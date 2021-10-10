@@ -1,7 +1,7 @@
 # Two-Factor Authentication for ATM System
 The Facial Recognition System that is implemented in this project will integrate a facial recognition module to the existing ATM cash withdrawal process thus adding a 2-step verification alongside the pin authentication module.
 The customers will need to go through a facial recognition phase as they simultaneously go through the pin authentication process.
-<br/>In this facial recognition module, we have proposed Inception-ResNet V1 as the machine learning CNN model to identify faces of the bank's customers.
+<br/>In this facial recognition module, we have proposed Inception-ResNet V1 as the CNN model to identify faces of the bank's customers.
 The model has been initially trained on sample faces to capture the characteristics of a human face and subsequently trained on the LFW dataset with more than two hundred classes thereby providing better accuracy.
 
 ---------------
